@@ -1,0 +1,879 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: arial;
+    box-sizing: border-box;
+}
+
+.main-container{
+    overflow: hidden;
+    width: 100%;
+}
+
+.navbar {
+    width: 100% !important;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    /* border: 2px solid yellow; */
+    /* background-color: rgb(255, 47, 0); */
+    animation: navbar 2s linear;
+
+
+}
+
+.navbar img {
+    width: 250px;
+    padding-left: 50px;
+
+}
+
+.navbar ul {
+    width: 50%;
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.navbar ul li {
+
+    list-style: none;
+
+    /* border: 1px solid red; */
+
+}
+
+.navbar ul li a {
+    width: 100%;
+    text-decoration: none;
+    color: rgb(246, 243, 243);
+    font-size: 20px;
+
+
+}
+.navbar ul li a:hover{
+    color: gold;
+    /* font-weight: bold; */
+}
+
+.navbar button {
+    padding: 15px 30px;
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.311);
+    margin-right: 50px;
+    color: rgb(247, 234, 234);
+    border: none;
+
+
+}
+.navbar button:hover{
+    background-color: aquamarine;
+    color: black;
+}
+.first-section {
+    width: 100% !important;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    /* border: 3px solid red; */
+    background: url(gradient-minimalist-background_23-2149976755.jpg);
+    background-size: cover;
+}
+
+
+.first-left {
+    width: 55%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:start;
+    padding-left: 70px;
+    gap: 20px;
+    /* border: 12px solid blue; */
+}
+.first-left h1{
+    width: 100%;
+    color: white;
+    font-size: 90px;
+    animation: h1 1.5s linear;
+}
+.first-left button{
+    padding: 15px 40px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: aquamarine;
+    animation: button 1.5s linear;
+
+
+}
+.first-left button:hover{
+    background-color: black;
+    color: white;
+   
+    
+}
+
+.first-right {
+    width: 45%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items:end;
+    
+    /* border: 12px solid rgb(136, 255, 0); */
+}
+.first-right img {
+    width: 900px;
+    position: absolute;
+    left: 450px;
+    /* border: 1px solid red; */
+    animation: right-img 1.3s linear;
+
+}
+
+/* -----------------------------------------------second section----------------------------------------------- */
+
+.second-section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    /* border: 2px solid red; */
+}
+.logo-div{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* border: 1px solid blue; */
+    animation: logo-div 2s linear;
+}
+.logo-div img{
+    width: 120px;
+    /* border: 2px solid red; */
+}
+.second-con{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    /* border: 5px solid red; */
+}
+.second-left{
+    width: 50%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid blue; */
+}
+.second-left img{
+    width: 490px;
+    animation-name: second-left-img;
+    animation-duration: 1s;
+    animation-timing-function: all ease-in-out;
+    /* animation-delay: 1.5s; */
+    transition: 1s all ease-in-out;
+
+    
+}
+.second-left img:hover{
+    scale: 1.1;
+    transition: 1s all ease-in-out;
+}
+.second-right{
+    width: 50%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:start;
+    gap: 20px;
+    /* border: 2px solid yellow; */
+    animation: second-right-h1 1s linear;
+}
+.second-right h1{
+    width: 65%;
+    font-size: 50px;
+    /* border: 2px solid blue; */
+
+    
+}
+.card-second-con{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: start;
+    /* border: 2px solid blue; */
+}
+.second-card{
+    width: 300px;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 10px;
+    /* border: 2px solid yellow; */
+}
+.second-card h1{
+    font-size: 25px;
+    width: 100%;
+}
+.second-card p{
+    width: 80%;
+}
+
+
+/* ------------------------------------------third section---------------------------------------------- */
+
+.third-section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+    /* border: 2px solid red; */
+
+
+
+}
+.color{
+    width: 75%;
+    height: 95vh;
+    position: absolute;
+    right: 0;
+    z-index: -1111;
+    /* border: 1px solid red; */
+    background-color: #eff1fd;
+}
+.third-top-card{
+    width: 80%;
+    height: 30vh;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    /* border: 2px solid red; */
+    animation: third-top-card 1.5s ease-in-out;
+}
+.third-card1{
+    width: 350px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 10px;
+    /* border: 2px solid red; */
+}
+.third-card img{
+    width: 50px;
+}
+.third-card1 h1{
+    font-size: 60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.third-card1 p{
+    font-size: 18px;
+}
+.third-card{
+    width: 250px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+    transition: .5s all ease-in-out;
+    
+    /* border: 2px solid blue; */
+}
+.third-card:hover{
+    background-color: cornflowerblue;
+    scale: 1.1;
+    transition: .5s all ease-in-out;
+    color:black;
+}
+.third-card h2{
+    font-size: 20px;
+}
+.third-card8{
+    width: 250px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    background-color: #263959;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+    
+    /* border: 2px solid blue; */
+}
+.third-card8 h2{
+    font-size: 18px;
+    width: 70%;
+    color: white;
+}
+.third-card8 span{
+    font-size: 30px;
+}
+.third-bottom-card{
+    width: 80%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-left: 100px;
+
+    /* border: 2px solid blue; */
+    animation: third-bottom-card 1.5s ease-in-out;
+}
+
+/* -------------------------------------------forth section------------------------------------------------ */
+
+.forth-section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+}
+.forth-left{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 30px;
+    padding-left: 100px;
+    /* border: 2px solid blue; */
+}
+.forth-left h1{
+    width: 550px;
+    /* border: 2px solid red; */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 60px;
+    animation: forth-left-h1 1s ease-in-out;
+}
+.forth-left p{
+    width: 550px;
+    /* border: 2px solid red; */
+}
+.forth-left button{
+    padding: 15px 30px;
+    color: #263959;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    background-color: aquamarine;
+}
+.forth-right{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid yellow; */
+    animation: forth-right 1.5s ease-in-out;
+}
+.forth-right img{
+    width: 90%;
+}
+
+/* ----------------------------------------fifth section------------------------------------------- */
+
+.fifth-section{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+    background-color: #263959;
+}
+.fifth-left{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    /* border: 2px solid blue; */
+}
+.fifth-text {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.fifth-text h1 {
+
+    font-size: 101px;
+    color: transparent;
+    padding-left: 70px;
+    -webkit-text-stroke-color: aquamarine;
+    -webkit-text-stroke-width: 5px;
+}
+.card-div{
+    width: 170px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;align-items: center;
+    /* border: 2px solid red; */
+    position: relative;
+    background-color:white;
+    border-radius: 10px;
+    position: absolute;
+    left: 100px;
+    top: 300px;
+    gap: 2px;
+    
+}
+.card-div span {
+
+    width: 20px !important;
+    height: 20px!important;
+    background-color: white;
+    /* border: 2px solid red; */
+    color: transparent;
+    /* border-radius: 5px; */
+    rotate: 45deg;
+    position: absolute;
+    top: -10px;
+    left: 40px;
+}
+.card-div a {
+    color: black;
+    width: 80%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    /* border: 1px solid red; */
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: bold;
+    gap: 5px;
+}
+.card-div img{
+    position: absolute;
+    width: 50px;
+    top: -70px;
+    left: 30px;
+    animation-name: img;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+
+}
+.fa-star{
+    color: aquamarine;
+}
+.card-div2{
+    width: 170px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;align-items: center;
+    /* border: 2px solid red; */
+    position: absolute;
+    background-color:white;
+    border-radius: 10px;
+    right: 0px;
+    top: 300px;
+    gap: 2px;
+}
+.card-div2 span {
+
+    width: 20px !important;
+    height: 20px!important;
+    background-color: white;
+    /* border: 2px solid red; */
+    color: transparent;
+    /* border-radius: 5px; */
+    rotate: 45deg;
+    position: absolute;
+    top: -10px;
+    left: 50px;
+}
+.card-div2 a {
+    color: black;
+    width: 80%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    /* border: 1px solid red; */
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: bold;
+    gap: 5px;
+}
+.card-div2 img{
+    position: absolute;
+    width: 50px;
+    top: -70px;
+    left: 30px;
+    animation-name: img;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+
+}
+.fa-star{
+    color: aquamarine;
+}
+.card-div3{
+    width: 170px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;align-items: center;
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 100px;
+    right: 230px;
+    gap: 2px;
+    background-color:white;
+    border-radius: 10px;
+}
+.card-div3 span {
+
+    width: 20px !important;
+    height: 20px!important;
+    background-color: white;
+    /* border: 2px solid red; */
+    color: transparent;
+    /* border-radius: 5px; */
+    rotate: 45deg;
+    position: absolute;
+    top: -10px;
+    left: 40px;
+}
+.card-div3 a {
+    color: black;
+    width: 80%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    /* border: 1px solid red; */
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: bold;
+    gap: 5px;
+}
+.card-div3 img {
+    position: absolute;
+    width: 50px;
+    top: -70px;
+    left: 30px;
+    animation-name: img;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+
+}
+.fa-star{
+    color: aquamarine;
+}
+.card-div4{
+    width: 170px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;align-items: center;
+    /* border: 2px solid red; */
+    position: absolute;
+    bottom: 70px;
+    right: 230px;
+    gap: 2px;
+    background-color:white;
+    border-radius: 10px;
+}
+.card-div4 span {
+
+    width: 20px !important;
+    height: 20px!important;
+    background-color: white;
+    /* border: 2px solid red; */
+    color: transparent;
+    /* border-radius: 5px; */
+    rotate: 45deg;
+    position: absolute;
+    top: -10px;
+    left: 40px;
+}
+.card-div4 a {
+    color: black;
+    width: 80%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    /* border: 1px solid red; */
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: bold;
+    gap: 5px;
+}
+.card-div4 img{
+    position: absolute;
+    width: 50px;
+    top: -70px;
+    left: 30px;
+    animation-name: img;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+
+}
+.fa-star{
+    color: aquamarine;
+}
+.card-div h1{
+    font-size: 15px;
+}
+.card-div p{
+    font-size: 12px;
+}
+.card-div2 h1{
+    font-size: 15px;
+}
+.card-div2 p{
+    font-size: 12px;
+}
+.card-div3 h1{
+    font-size: 15px;
+}
+.card-div3 p{
+    font-size: 12px;
+}
+.card-div4 h1{
+    font-size: 15px;
+}
+.card-div4 p{
+    font-size: 12px;
+}
+.fifth-right{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 20px;
+    padding-top: 100px;
+    padding-left: 70px;
+    /* border: 2px solid yellow; */
+
+    animation: fifth-right 1.3s ease-in-out;
+}
+.fifth-right h1{
+    width: 80%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 65px;
+    color: white;
+}
+.fifth-right p{
+    width: 65%;
+    color: rgba(255, 255, 255, 0.67);
+    /* border: 2px solid red; */
+}
+.fifth-right button{
+    padding: 15px 30px;
+    background-color: aquamarine;
+    border: none;
+    color: #263959;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-top: 20px;
+
+}
+
+/* -------------------------------------------------------sixth section-------------------------------------------- */
+
+.sixth-section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+    background-color: #f4f8fd;
+}
+.sixth-section h1{
+    width: 30%;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    /* border: 2px solid red; */
+
+}
+
+.sixth-card-con{
+    width: 90%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    /* border: 2px solid blue; */
+    animation: sixth-card-con 1.5s ease-in-out;
+}
+.card-sixth{
+    width: 350px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+    /* border: 2px solid yellow; */
+    transition: 1s all ease-in-out;
+}
+.card-sixth:hover{
+    transform: scale(1.1);
+    transition: 1s all ease-in-out;
+}
+.top{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+    /* border: 2px solid red; */
+    gap: 10px;
+}
+.top img{
+    width: 70px;
+}
+.text-div{
+    width: 70%;
+    /* border: 2px solid blue; */
+}
+.text-div h2{
+    padding-bottom: 5px;
+    font-size: 25px;
+}
+.text-div p{
+    font-size: 15px;
+}
+.bottom{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;align-items: start;
+    gap: 10px;
+    position: relative;
+    /* border: 2px solid red; */
+    padding-left: 20px;
+}
+.bottom img{
+    width: 200px;
+    top: 50px;
+    left: 0;
+    position: absolute;
+}
+.bottom p{
+    line-height: 20px;
+}
+
+/* ---------------------------------------seventh section--------------------------------------------------- */
+
+.seventh-section{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+    background-color: #eff1fd;
+}
+
+.seventh-left{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding-left: 150px;
+    /* border: 2px solid blue; */
+}
+.img-div{
+    width: 300px;
+    height: 100px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    /* border: 2px solid red; */
+}
+.seventh-icon{
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 100px;
+    /* border: 2px solid red; */
+}
+.seventh-icon img{
+    width: 40px;
+    transition: .5s all ease-in-out;
+
+    
+}
+.seventh-icon img:hover{
+    transform: translateY(-10px);
+    transition: .5s all ease-in-out;
+}
+.seventh-right{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 100px;
+    /* border: 2px solid yellow; */
+}
+.right-con{
+    line-height: 40px;
+
+}
+.right-con ul li {
+    list-style: none;
+}
+.right-con ul li:hover{
+    color: crimson;
+}

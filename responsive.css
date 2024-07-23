@@ -1,0 +1,847 @@
+@media only screen and (max-width:1024px) {
+    .navbar {
+        width: 100%;
+        /* border: 2px solid red !important; */
+
+    }
+
+    .navbar ul {
+        display: none;
+
+
+    }
+
+    /* --------------------------------------first section---------------------------------------- */
+
+    .first-section {
+        width: 100%;
+        height: auto;
+        /* border: 2px solid red; */
+    }
+
+    .first-left {
+        width: 60%;
+        /* border: 2px solid blue;
+         */
+    }
+
+    .first-left h1 {
+        font-size: 60px;
+    }
+
+
+    .first-right {
+        width: 40%;
+        /* border: 2px solid red; */
+    }
+
+    .first-right img {
+        width: 80%;
+        position: absolute;
+        left: 200px;
+    }
+
+    /* ------------------------------second section-------------------------------------- */
+
+    .second-section {
+        width: 100%;
+        /* border: 2px solid red; */
+    }
+
+    .second-left {
+        width: 50%;
+        height: 80vh;
+        /* border: 2px solid blue; */
+    }
+
+    .second-left img {
+        width: 90%;
+    }
+
+    .second-right {
+        width: 50%;
+        flex-wrap: wrap;
+        /* border: 2px solid yellow; */
+    }
+
+    .second-right h1 {
+        width: 80%;
+        font-size: 40px;
+    }
+
+    .second-card {
+        width: 250px;
+        /* border: 2px solid blue; */
+    }
+
+    .second-card h1 {
+        width: 200px;
+        font-size: 20px;
+    }
+
+    .second-right p {
+        width: 80%;
+        font-size: 15px;
+    }
+
+    .card-second-con {
+        width: 100%;
+        /* height: 100%; */
+        display: flex !important;
+        flex-wrap: wrap !important;
+        /* border: 2px solid red; */
+    }
+
+    /* ---------------------------------------third section--------------------------------------- */
+
+    .third-section {
+        width: 100%;
+        /* border: 2px solid red; */
+    }
+
+    .third-top-card {
+        width: 95%;
+        /* border: 2px solid red; */
+    }
+
+    .third-bottom-card {
+        width: 95%;
+        padding-left: 150px;
+        /* border: 2px solid yellow; */
+    }
+
+    .forth-section{
+        width: 100%;
+        height: 70vh;
+        /* border: 2px solid red */
+    }
+    .forth-left{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        padding-left: 30px;
+        /* border: 2px solid yellow; */
+    }
+    .forth-left h1 {
+        width: 90%;
+        font-size: 45px;
+
+    }
+    .forth-left p{
+        font-size: 15px;
+        width: 90%;
+    }
+    .forth-right{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+    .forth-right img{
+        width: 600px;
+    }
+
+    .fifth-section{
+        width: 100%;
+        height: 80vh;
+        /* border: 2px solid red; */
+    }
+    .fifth-left{
+        width: 55%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* border: 2px solid red; */
+    }
+    .fifth-text h1{
+        font-size: 70px;
+        padding-left: 0;
+        -webkit-text-stroke-width: 3px;
+    }
+    .card-div{
+        position: absolute;
+        left: 10px;
+        top: 330px;
+    }
+    .card-div2{
+        position: absolute;
+        top: 330px;
+    }
+    .card-div3{
+        position: absolute;
+        left: 200px;
+        top: 130px;
+    }
+    .card-div4{
+        position: absolute;
+        left: 200px;
+    }
+    .fifth-right{
+        width: 45%;
+        height: 100%;
+        /* border: 2px solid blue; */
+    }
+    .fifth-right h1{
+        width: 100%;
+        font-size: 40px;
+    }
+    .fifth-right p{
+        width: 90%;
+    }
+
+    .sixth-section{
+        width: 100%;
+        height: 80vh;
+        /* border: 2px solid red; */
+    }
+    .sixth-section h1{
+        width: 50%;
+    }
+    .sixth-card-con{
+        width: 100%;
+        gap: 20px;
+        padding: 15px;
+        /* border: 2px solid blue; */
+    }
+    .top h2{
+        width: 100%;
+        font-size: 23px;
+        /* border: 2px solid red; */
+    }
+
+    .seventh-section{
+        width: 100%;
+        height: 70vh;
+        /* border: 2px solid red; */
+    }
+    .seventh-left{
+        width: 40%;
+        padding-left: 50px;
+        /* border: 2px solid yellow; */
+    }
+    .seventh-right{
+        width: 60%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 70px;
+        /* border: 2px solid blue; */
+    }
+    
+}
+
+/* ------------------------------------------------768----------------------------------------- */
+
+@media only screen and (max-width:768px) {
+    .first-section {
+        width: 100%;
+        height: 50vh !important;
+        /* border: 2px solid red; */
+    }
+
+    .first-left {
+        width: 60%;
+        /* border: 2px solid blue; */
+    }
+
+    .first-left h1 {
+        width: 100%;
+        font-size: 45px;
+        /* border: 1px solid red; */
+    }
+
+    .first-right img {
+        left: 150px;
+    }
+
+    /* -----------------------second section--------------------------- */
+
+    .second-section {
+        width: 100%;
+        height: 450px !important;
+        /* border: 2px solid red; */
+    }
+
+    .logo-div {
+        width: 100%;
+        height: 100px;
+    }
+
+    .logo-div img {
+        width: 120px;
+        padding-left: 20px;
+    }
+
+    .second-left {
+        width: 50%;
+        height: 450px;
+        /* border: 2px solid red; */
+    }
+
+    .second-left img {
+        width: 80%;
+    }
+
+    .second-right {
+        width: 50%;
+        height: 450px;
+        /* border: 2px solid red; */
+    }
+
+    .second-right h1 {
+        width: 95%;
+        font-size: 35px;
+        /* border: 2px solid red; */
+    }
+
+    .card-second-con {
+        width: 100%;
+        height: 200px;
+        display: flex;
+        flex-wrap: wrap !important;
+        /* border: 2px solid blue; */
+    }
+
+    .second-card {
+        width: 50%;
+        height: 100px;
+        display: flex;
+        flex-wrap: wrap;
+        /* border: 2px solid yellow; */
+    }
+
+    .second-card h1 {
+        width: 90%;
+        font-size: 15px;
+    }
+
+    .second-card p {
+        font-size: 10px;
+        width: 80%;
+    }
+
+    .make {
+        width: 90% !important;
+        /* border: 2px solid red; */
+    }
+
+    /* ------------------------------------------third section----------------------------------------- */
+
+    .third-section {
+        width: 100%;
+        height: 100%;
+        margin-top: 0;
+        /* border: 2px solid red; */
+    }
+
+    .color {
+        height: 500px;
+        /* border: 2px solid red; */
+    }
+
+    .third-top-card {
+        width: 95%;
+        gap: 20px;
+        /* border: 2px solid red; */
+    }
+
+    .third-card1 {
+        width: 260px !important;
+        height: 150px;
+        /* border: 2px solid blue; */
+    }
+
+    .third-card1 h1 {
+        font-size: 40px;
+
+    }
+
+    .third-card1 p {
+        font-size: 12px;
+        /* border: 2px solid red; */
+    }
+
+    .third-card {
+        width: 150px;
+        height: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        /* border: 2px solid yellow; */
+    }
+
+    .third-card h2 {
+        font-size: 15px;
+
+    }
+
+    .third-card p {
+        font-size: 10px;
+    }
+
+    .third-card img {
+        width: 40px;
+    }
+
+    .third-bottom-card {
+        width: 95%;
+        gap: 20px;
+        padding-left: 90px;
+        /* border: 2px solid blue; */
+    }
+
+    .third-card8 {
+        width: 150px;
+        height: 150px;
+    }
+
+    .third-card8 h2 {
+        width: 80%;
+        /* border: 2px solid red; */
+        font-size: 14px;
+    }
+
+    .third-card8 span {
+        font-size: 20px;
+    }
+
+    .forth-section{
+        width: 100%;
+        height: 90vh;
+        /* border: 2px solid red; */
+    }
+    .forth-left{
+        width: 50%;
+        height: 100%;
+    }
+    .forth-left h1{
+        width: 85%;
+        font-size: 33px;
+    }
+    .forth-left p{
+        font-size: 15px;
+    }
+    .forth-right img{
+        width: 500px;
+        
+    }
+    .fifth-section{
+        width: 100%;
+        height: 100vh;
+        /* border: 2px solid red; */
+    }
+    .fifth-left{
+        width: 60%;
+        height: 100%;
+        /* border: 2px solid blue; */
+    }
+    .card-div{
+        width: 145px;
+        position: absolute;
+        top: 350px;
+    }
+    .card-div2{
+        width: 145px;
+        position: absolute;
+        top: 350px;
+    }
+    .card-div3{
+        width: 145px;
+        position: absolute;
+        left: 170px;
+        top: 150px;
+    }
+    .card-div4{
+        width: 145px;
+        position: absolute;
+        bottom: 15px;
+        left: 170px;
+    }
+    .fifth-right{
+        width: 40%;
+        height: 100%;
+        padding-left: 20px;
+        /* border: 2px solid red; */
+    }
+    .fifth-right h1{
+        width: 100%;
+        font-size: 30px;
+    }
+    .fifth-right p{
+        width: 90%;
+        font-size: 15px;
+    }
+
+    .sixth-section{
+        width: 100%;
+        height: 150vh;
+    
+        /* border: 2px solid red; */
+    }
+    .sixth-section h1{
+        padding-bottom: 20px;
+    }
+    .sixth-card-con{
+        width: 100%;
+        height: 100vh;
+        flex-wrap: wrap;
+        /* border: 2px solid blue; */
+    }
+    
+    .seventh-section{
+        width: 100%;
+        /* border: 2px solid red; */
+    }
+    .seventh-left{
+        width: 40%;
+        /* border: 2px solid blue; */
+    }
+    .seventh-icon{
+        width: 150px;
+        gap: 20px;
+        /* border: 2px solid red; */
+    }
+    .seventh-right{
+        width: 60%;
+        gap: 50px;
+        /* border: 2px solid yellow; */
+    }
+    .seventh-right h2{
+        font-size: 20px;
+    }
+    .seventh-right ul li {
+        font-size: 12px;
+    }
+
+}
+
+
+/* --------------------------------------430--------------------------------------- */
+
+@media only screen and (max-width:431px) {
+
+    .main-container{
+        width: 100%;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+    
+    }
+
+    .navbar {
+        width: 100%;
+        height: 50px;
+        /* border: 2px solid red; */
+    }
+
+    .navbar img {
+        width: 180px;
+    }
+
+    .navbar button {
+        padding: 10px 20px;
+        font-size: 15px;
+        /* border: 1px solid red; */
+    }
+
+    .first-section {
+        width: 100%;
+        height: 100vh !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        /* border: 2px solid red; */
+        overflow: hidden;
+    }
+    .first-left{
+        width: 100%;
+        height:100%;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        padding-left: 20px;
+        padding-top:100%;
+        /* border: 2px solid red; */
+    }
+    .first-right{
+        width: 100%;
+        height: 400px;
+        position: relative;
+        /* border: 2px solid blue; */
+    }
+    .first-right img{
+        width: 800px;
+        left: -340px;
+        top: 20px;
+        position: absolute;
+    
+    }
+    .second-section{
+        width: 100%;
+        height: 120vh !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+
+    }
+    .logo-div{
+        width: 100%;
+        height: 200px;
+        margin-top: 80px;
+        flex-wrap: wrap;
+        padding: 0px 30px;
+    }
+    .second-con{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        /* border: 2px solid red; */
+    }
+    .second-left{
+        width: 100%;
+        height: 500px;
+    }
+    .second-right{
+        width: 100%;
+        height: 450px;
+        padding-left: 20px;
+        flex-direction: column;
+
+    }
+    .third-section{
+        width: 100%;
+        height:auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+        overflow: hidden;
+        flex-direction: column;
+        /* border: 2px solid red; */
+
+    }
+    .color{
+        width: 100%;
+        height:100%;
+        overflow: hidden;
+    }
+    .third-top-card{
+        width: 100%;
+        height: 200px;
+        margin-top: -40%;
+    }
+    
+    .third-card1{
+        width: 100%;
+        text-align: center;
+        font-size: 25px;
+    }
+    .third-card1 p{
+
+        width: 100%;
+        text-align: center;
+    }
+    .third-bottom-card{
+        width: 100%;
+        height: 400px;
+        flex-wrap: wrap;
+        padding-left: 0;
+        margin-top: 20px;
+    }
+
+    /* -------------------------------------------------forth section------------------------------------------ */
+
+    .forth-section{
+        width: 100%;
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        padding: 0px 20px;
+
+    }
+    .forth-left{
+        width: 100%;
+        height: 60%;
+        padding-left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* border: 2px solid red; */
+    }
+    .forth-left h1{
+        width: 100%;
+        text-align: center;
+        font-size: 40px;
+    }
+    .forth-left p{
+        width: 100%;
+        font-size: 17px;
+    }
+    .forth-right{
+        width: 100%;
+        height: 60%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .forth-right img{
+        width: 100%;
+        margin-top: 10%;
+    }
+
+    /* -------------------------------------------fifth section-------------------------------------------------- */
+
+    .fifth-section{
+        width: 100%;
+        height: 110vh;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+
+    }
+    .fifth-left{
+        width: 100%;
+        height: 60vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .fifth-right{
+        width: 100%;
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 0;
+        padding-left: 0;
+        /* border: 2px solid yellow; */
+    }
+    .fifth-right h1{
+        width: 90%;
+       
+        text-align: center;
+        font-size: 40px;
+    }
+    .fifth-right p{
+        width: 90%;
+        text-align: center;
+    }
+    .card-div{
+        position: absolute;
+        left: 10px;
+        top: 350px;
+        width: 110px;
+    
+       
+    }
+    .card-div2{
+        position: absolute;
+        right: 10px;
+        top: 350px;
+        width: 110px;
+    }
+    .card-div3{
+        position: absolute;
+        bottom: 0;
+        left: 150px;
+        width: 110px;
+    }
+    .card-div4{
+        position: absolute;
+        bottom: 10px;
+        left: 150px;
+        width: 110px;
+    }
+    .fifth-text h1{
+        font-size: 30px;
+        padding-left: 0;
+        -webkit-text-stroke-width: 2px;
+    }
+    /* --------------------------------------sixth section------------------------------------------------- */
+
+    .sixth-section{
+        width: 100%;
+        height: 130vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+
+    }
+    .sixth-section h1{
+        width: 100%;
+        padding-bottom: 30px;
+        font-size: 50px;
+    }
+    .sixth-card-con{
+        width: 100%;
+        height:auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* -----------------------------------------seventh section----------------------------------------------- */
+
+    .seventh-section{
+        width: 100%;
+        height: 70vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+
+    }
+    .seventh-left{
+        width: 100%;
+        height: 150px;
+        padding-left: 0;
+        /* border: 2px solid red; */
+    }
+    .img-div {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* border: 2px solid blue; */
+        padding-right: 20px;
+
+    }
+    .seventh-icon{
+        width: 420px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        /* border: 2px solid red; */
+    }
+    .seventh-right{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+    }
+    .right-con h2{
+        font-size: 18px;
+    }
+    .right-con ul li{
+        font-size: 12px;
+    }
+}
